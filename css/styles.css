@@ -123,8 +123,7 @@ body {
 
 /*main*/
 .section {
-    padding-top: 0;
-    padding-bottom: 94px;  
+    padding: 94px 0; 
 }
 .container {
     margin-left: auto;
@@ -136,14 +135,12 @@ body {
 
 /*hero section*/
 .hero-section {
+    max-height: 600px;  
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+   
     background-color: var(--background);
-}
-.container .hero {
-    max-height: 600px;   
 }
 .hero-title {
     margin-left: auto;
@@ -177,6 +174,9 @@ body {
 }
 
 /*features section*/
+.features {
+    padding-bottom: 0;
+}
 .features-list {
     display: flex;
     justify-content: space-between;
@@ -212,9 +212,7 @@ body {
 }
 
 /*team section*/
-.section-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.section .team {
     background: var(--secondary-background);
 }
 .team-section {
@@ -308,17 +306,11 @@ body {
 /*portfolio-project-border #EEEEEE*/
 
 /*portfolio*/
-.project-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .project {
     display: flex;
     justify-content: center;   
-    
     margin-bottom: 50px; 
 }
-
 .project .item:not( :last-child) {
     margin-right: 8px;
 }
